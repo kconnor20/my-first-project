@@ -1,11 +1,14 @@
-# 
+# MyFirstProject
 
-The goal of  is to ...
+MyFirstProject is designed to help me make my first steps as an awesome package developer.
 
-## Example
+## Core functionality
+At this point in time, key aspects of the package are:
 
-This is a basic example which shows you how to solve a common problem:
+- `circlearea` for calculating the area of circle, given the radius.
 
-``` r
-## basic example code
+
+# Install this package
+```{r}
+devtools::install_github("kconnor20/my-first-project")
 ```

@@ -1,4 +1,4 @@
-# MyFirstProject
+# MyFirstProjectOverview
 [![Build Status](https://travis-ci.org/kconnor20/my-first-project.svg?branch=master)](https://travis-ci.org/kconnor20/my-first-project)
 
 MyFirstProject is designed to help me make my first steps as an awesome package developer.

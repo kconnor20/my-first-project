@@ -1,0 +1,16 @@
+Package: MyFirstProject
+Title: Explores basic R functionality
+Version: 0.0.1
+Authors@R: person("Katie", "Connor", email = "katie.connor@cancer.org.uk", role = c("aut", "cre"))
+Description: Helps me practice writing R functions. Distributing datasets. 
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: covr,
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: optiRum
+RoxygenNote: 6.0.1

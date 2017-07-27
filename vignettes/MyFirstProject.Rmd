@@ -1,0 +1,27 @@
+---
+title: "MyFirstProject Introduction"
+author: "Katie Connor"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+MyFirstProject is designed to help me make my first steps as an awesome package developer.
+
+## Core functionality
+At this point in time, key aspects of the package are:
+
+- `circlearea` for calculating the area of circle, given the radius.
+
+## Using the package
+### `circlearea`
+Use `circlearea` to calculate the area of cicle given vectors. Note that this does not do any unit management.
+
+```{r}
+library(MyFirstProject)
+circlearea(2)
+circlearea(2:5)
+```
